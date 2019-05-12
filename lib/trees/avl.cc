@@ -25,6 +25,7 @@ int height(AvlTree::Node* root) {
 }
 
 AvlTree::Node* rightRotate(AvlTree::Node* root) {
+    std::cout << "right rotating on: " << root->key << std::endl;
     assert(root != nullptr && root->left != nullptr);
     auto old_root = root;
     auto new_root = root->left;
@@ -39,6 +40,7 @@ AvlTree::Node* rightRotate(AvlTree::Node* root) {
 }
 
 AvlTree::Node* leftRotate(AvlTree::Node* root) {
+    std::cout << "left rotating on: " << root->key << std::endl;
     assert(root != nullptr && root->right != nullptr);
     auto old_root = root;
     auto new_root = root->right;
