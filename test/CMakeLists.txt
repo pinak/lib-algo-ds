@@ -4,6 +4,7 @@ add_executable(
     lib-algo-ds-test
         sort_test.cc
         bst_test.cc
+        avl_test.cc
 )
 
 target_link_libraries(

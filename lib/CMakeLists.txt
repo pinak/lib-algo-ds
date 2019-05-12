@@ -7,6 +7,7 @@ add_library(
         sort/quick.cc
         sort/selection.cc
         trees/bst.cc
+        trees/avl.cc
 )
 
 target_include_directories(
