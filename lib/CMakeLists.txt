@@ -8,6 +8,7 @@ add_library(
         sort/selection.cc
         trees/bst.cc
         trees/avl.cc
+        disjointset.cc
 )
 
 target_include_directories(

@@ -5,6 +5,7 @@ add_executable(
         sort_test.cc
         bst_test.cc
         avl_test.cc
+        disjointsettest.cc
 )
 
 target_link_libraries(
