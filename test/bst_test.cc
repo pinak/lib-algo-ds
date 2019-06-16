@@ -1,5 +1,5 @@
 #include <catch2/catch.hpp>
-#include <lib-algo-ds/bst.h>
+#include <lib-algo-ds/tree/bst.h>
 
 TEST_CASE("bst put get test") {
     constexpr auto v = "some value";

@@ -1,4 +1,4 @@
-#include <lib-algo-ds/bst.h>
+#include <lib-algo-ds/tree/bst.h>
 #include <algorithm>
 
 BSTree::BSTree() :

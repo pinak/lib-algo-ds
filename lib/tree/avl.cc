@@ -1,4 +1,4 @@
-#include <lib-algo-ds/avl.h>
+#include <lib-algo-ds/tree/avl.h>
 #include <algorithm>
 #include <cassert>
 #include <iostream>

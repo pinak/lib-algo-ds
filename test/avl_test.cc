@@ -1,5 +1,5 @@
 #include <catch2/catch.hpp>
-#include <lib-algo-ds/avl.h>
+#include <lib-algo-ds/tree/avl.h>
 
 #include <algorithm>
 

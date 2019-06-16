@@ -6,8 +6,8 @@ add_library(
         sort/merge.cc
         sort/quick.cc
         sort/selection.cc
-        trees/bst.cc
-        trees/avl.cc
+        tree/bst.cc
+        tree/avl.cc
         disjointset.cc
 )
 
