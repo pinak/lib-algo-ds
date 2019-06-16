@@ -6,6 +6,8 @@ add_executable(
         bst_test.cc
         avl_test.cc
         disjointsettest.cc
+
+        graph/graph_test.cc
 )
 
 target_link_libraries(

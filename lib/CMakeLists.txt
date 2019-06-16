@@ -9,6 +9,9 @@ add_library(
         tree/bst.cc
         tree/avl.cc
         disjointset.cc
+
+        graph/edge.cc
+        graph/graph.cc
 )
 
 target_include_directories(
