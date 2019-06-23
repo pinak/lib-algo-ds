@@ -8,7 +8,7 @@ add_executable(
         disjointsettest.cc
 
         graph/graph_test.cc
-        graph/kruskalmst_test.cc
+        graph/mst_test.cc
 )
 
 target_link_libraries(

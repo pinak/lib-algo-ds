@@ -13,6 +13,7 @@ add_library(
         graph/edge.cc
         graph/graph.cc
         graph/kruskalmst.cc
+        graph/primmmstlazy.cc
 )
 
 target_include_directories(
