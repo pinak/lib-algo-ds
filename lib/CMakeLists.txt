@@ -12,6 +12,7 @@ add_library(
 
         graph/edge.cc
         graph/graph.cc
+        graph/kruskalmst.cc
 )
 
 target_include_directories(

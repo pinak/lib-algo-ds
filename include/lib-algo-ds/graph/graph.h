@@ -10,6 +10,7 @@ public:
     void addEdge(Edge const& edge);
     std::vector<Edge> adjacent(int v) const;
     std::vector<Edge> edges() const;
+    int size() const;
 
 private:
     std::vector<Edge> _edges;

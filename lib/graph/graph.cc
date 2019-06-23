@@ -24,3 +24,7 @@ vector<Edge> Graph::adjacent(int vertex) const {
 vector<Edge> Graph::edges() const {
     return _edges;
 }
+
+int Graph::size() const {
+    return _adjacentEdges.size();
+}
