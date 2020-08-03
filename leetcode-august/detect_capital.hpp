@@ -10,6 +10,8 @@ We define the usage of capitals in a word to be right when one of the following 
 Otherwise, we define that this word doesn't use capitals in a right way. 
 */
 
+#pragma once
+
 #include <string>
 
 class Solution {
