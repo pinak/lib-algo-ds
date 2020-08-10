@@ -5,6 +5,7 @@ add_executable(
         design_hashset_test.cpp
         valid_palindrome_test.cpp
         add_and_search_word_ds_test.cpp
+        excel_column_number_test.cpp
 )
 
 target_link_libraries(
