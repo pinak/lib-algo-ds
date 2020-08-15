@@ -6,6 +6,7 @@ add_executable(
         valid_palindrome_test.cpp
         add_and_search_word_ds_test.cpp
         excel_column_number_test.cpp
+        longest_palindrome.cpp
 )
 
 target_link_libraries(
