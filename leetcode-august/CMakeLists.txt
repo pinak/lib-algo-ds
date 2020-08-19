@@ -7,6 +7,7 @@ add_executable(
         add_and_search_word_ds_test.cpp
         excel_column_number_test.cpp
         longest_palindrome.cpp
+        goat_latin.cpp
 )
 
 target_link_libraries(
